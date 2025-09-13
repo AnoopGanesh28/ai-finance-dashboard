@@ -1,72 +1,24 @@
-# Byte-compiled / optimized / DLL files
-__pycache__/
-*.py[cod]
-*$py.class
+# Core web app
+streamlit
 
-# C extensions
-*.so
+# Database
+psycopg2-binary
+sqlalchemy
 
-# Distribution / packaging
-.Python
-env/
-venv/
-ENV/
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-*.egg-info/
-.installed.cfg
-*.egg
+# Data manipulation
+pandas
 
-# PyInstaller
-*.manifest
-*.spec
+# Visualization
+matplotlib
+seaborn
+plotly
 
-# Installer logs
-pip-log.txt
-pip-delete-this-directory.txt
+# Machine Learning
+scikit-learn
+statsmodels
 
-# Unit test / coverage reports
-htmlcov/
-.tox/
-.nox/
-.coverage
-.coverage.*
-.cache
-nosetests.xml
-coverage.xml
-*.cover
-.hypothesis/
-.pytest_cache/
+# Utility
+python-dotenv
 
-# Jupyter Notebook
-.ipynb_checkpoints
-
-# pyenv
-.python-version
-
-# dotenv
-.env
-.env.*
-
-# VS Code
-.vscode/
-
-# Data
-data/raw/
-data/processed/
-
-# Models
-models/*.pkl
-
-# OS files
-.DS_Store
-Thumbs.db
+# (Optional: for Heroku deployment)
+gunicorn
